@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"/>
+    <EditText
+        android:id="@+id/emailid_in"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="50dp"
+        android:paddingStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="@string/prompt_email"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/field"/>
+    <EditText
+        android:id="@+id/password_in"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="50dp"
+        android:paddingStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="@string/prompt_password"
+        android:background="@drawable/field"
+        android:inputType="textPassword"/>
+    <EditText
+        android:id="@+id/password_in_cnf"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="50dp"
+        android:paddingStart="10dp"
+        android:layout_gravity="center"
+        android:hint="@string/prompt_password_confirm"
+        android:background="@drawable/field"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:padding="0dp"
+
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/password_in_alert"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:text="Password not matched"
+            android:textColor="@color/red"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/signup_ok"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:scaleType="fitCenter"
+        android:text="signup"
+        android:textSize="@dimen/btn_text"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/red"
+        android:background="@layout/rounded_corner" />
+        />
+</LinearLayout>

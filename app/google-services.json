@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "749483688540",
+    "firebase_url": "https://village-programmer.firebaseio.com",
+    "project_id": "village-programmer",
+    "storage_bucket": "village-programmer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749483688540:android:600ea460f9e9da91621c99",
+        "android_client_info": {
+          "package_name": "com.vikaspatelp83.apps.villageprogrammer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749483688540-bu2i11496r395qfun9ml3o64586t7erc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vikaspatelp83.apps.villageprogrammer",
+            "certificate_hash": "1a5023fd14705883baa6ff830e25f049730f6757"
+          }
+        },
+        {
+          "client_id": "749483688540-s25nfm6ps66fm7o8mqtps74drvsmepuo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt1vE31KyoFKWIgiUBsMg8EQHLgT6jYXs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749483688540-s25nfm6ps66fm7o8mqtps74drvsmepuo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
