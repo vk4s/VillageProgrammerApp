@@ -170,12 +170,13 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            Toast.makeText(MainActivity.this,"Setting selected",Toast.LENGTH_SHORT).show();
+        if (id == R.id.action_refresh) {
+            browser.reload();
+            Toast.makeText(MainActivity.this,"Refreshed",Toast.LENGTH_SHORT).show();
             return true;
         }
         else if(id == R.id.action_exit){
-            Toast.makeText(MainActivity.this,"Exitting App",Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this,"Exiting App",Toast.LENGTH_SHORT).show();
             finish();
         }
         else if(id == R.id.action_signout){
