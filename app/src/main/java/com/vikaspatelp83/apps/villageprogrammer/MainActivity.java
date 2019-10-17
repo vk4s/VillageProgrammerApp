@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity
         //////////////////////////
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayShowTitleEnabled(false);
+        getSupportActionBar().setDisplayShowTitleEnabled(true);
       /*  FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -174,6 +174,9 @@ public class MainActivity extends AppCompatActivity
             browser.reload();
             Toast.makeText(MainActivity.this,"Refreshed",Toast.LENGTH_SHORT).show();
             return true;
+        }
+        else if(id == R.id.action_share){
+            Toast.makeText(MainActivity.this, "Shared", Toast.LENGTH_SHORT).show();
         }
         else if(id == R.id.action_exit){
             Toast.makeText(MainActivity.this,"Exiting App",Toast.LENGTH_SHORT).show();
