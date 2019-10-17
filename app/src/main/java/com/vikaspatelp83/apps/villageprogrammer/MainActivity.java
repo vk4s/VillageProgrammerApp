@@ -25,6 +25,7 @@ import androidx.appcompat.app.ActionBarDrawerToggle;
 import android.view.MenuItem;
 
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.auth.FirebaseUser;
 
 import androidx.drawerlayout.widget.DrawerLayout;
 
@@ -50,6 +51,7 @@ import static android.view.animation.RotateAnimation.*;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+    String TAG;
     WebView browser,loader;
     WebSettings webSettings;
     ProgressBar progressBar;
@@ -226,13 +228,12 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_about){
             startActivity(new Intent(MainActivity.this,AboutActivity.class));
         }
-        else if(id == R.id.nav_user){
-            startActivity(new Intent(MainActivity.this,UserActivity.class));
-        }
+
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
     public static void setWindowFlag(Activity activity, final int bits, boolean on) {
         Window win = activity.getWindow();
         WindowManager.LayoutParams winParams = win.getAttributes();
