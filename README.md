@@ -26,6 +26,7 @@ All the source files are available inside : app/src/main/
 
 the installer for app is inside : installer/villageprogrammerapp.apk
 
-Website : https://www.villageprogrammer.tech
+Website : [![](https://img.shields.io/badge/Website-Villageprogrammer-Red)](https://www.villageprogrammer.tech)
 
-join slack channel here : {https://join.slack.com/t/vikaspateltech/shared_invite/enQtNzg0NDMxNTQ5MDc3LWIyNWYwYjI0MWUyZWYwZjY3YmZmNTY5ODEyMTM5NjMzNjlmZjEyZDFmMzk1Y2Y2YWVjOTkyYWNlNmIyNGY5YWY}
+join slack channel here : [![](https://img.shields.io/badge/Slack-Channel-Golden)](https://join.slack.com/t/vikaspateltech/shared_invite/enQtNzg0NDMxNTQ5MDc3LWIyNWYwYjI0MWUyZWYwZjY3YmZmNTY5ODEyMTM5NjMzNjlmZjEyZDFmMzk1Y2Y2YWVjOTkyYWNlNmIyNGY5YWY)
+
