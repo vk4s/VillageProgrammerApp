@@ -1,3 +1,5 @@
+language: java
+gradle assemble
 jobs:
   include:
     - script: echo "Running unit tests (1)"
