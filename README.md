@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.com/vikaspatelp83/VillageProgrammerApp.svg?branch=master)](https://travis-ci.com/vikaspatelp83/VillageProgrammerApp) [![](https://img.shields.io/badge/Platform-Android-Green)]() [![](https://img.shields.io/badge/Programming%20Language-Java-Yellow)]() 
+[![](https://img.shields.io/badge/License-GNU%20General%20Public%20License%20v3.0-Gray)]()
 
 [![](https://img.shields.io/badge/Version-1.0-Violet)]() [![](https://img.shields.io/badge/Developer-Vikas%20Patel-SkyBlue)](https://www.villageprogrammer.tech)
 
