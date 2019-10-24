@@ -1,4 +1,6 @@
-[![Build Status](https://travis-ci.com/vikaspatelp83/VillageProgrammerApp.svg?branch=master)](https://travis-ci.com/vikaspatelp83/VillageProgrammerApp)
+[![Build Status](https://travis-ci.com/vikaspatelp83/VillageProgrammerApp.svg?branch=master)](https://travis-ci.com/vikaspatelp83/VillageProgrammerApp) [![](https://img.shields.io/badge/Platform-Android-Green)]() [![](https://img.shields.io/badge/Programming%20Language-Java-Yellow)]() 
+
+[![](https://img.shields.io/badge/Version-1.0-Violet)]() [![](https://img.shields.io/badge/Developer-Vikas%20Patel-SkyBlue)](https://www.villageprogrammer.tech)
 
 [![](https://img.shields.io/badge/Download-App%20Here-BlueViolet)](https://github.com/vikaspatelp83/VillageProgrammerApp/raw/master/Installer/VillageProgrammer%20App.apk)
 
