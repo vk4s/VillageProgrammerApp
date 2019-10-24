@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.com/vikaspatelp83/VillageProgrammerApp.svg?branch=master)](https://travis-ci.com/vikaspatelp83/VillageProgrammerApp)
 
+[![](https://img.shields.io/badge/Download-App%20Here-BlueViolet)](https://github.com/vikaspatelp83/VillageProgrammerApp/raw/master/Installer/VillageProgrammer%20App.apk)
+
 # VillageProgrammerApp
 An Android app for E-Learning
 Android app for E-learning.
