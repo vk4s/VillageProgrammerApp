@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/vikaspatelp83/VillageProgrammerApp.svg?branch=master)](https://travis-ci.com/vikaspatelp83/VillageProgrammerApp)
+
 # VillageProgrammerApp
 An Android app for E-Learning
 Android app for E-learning.
